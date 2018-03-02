@@ -1,0 +1,9 @@
+{
+  "type": "Text",
+  "data": {
+    "text": "<p>Lorem ipsum </p>"
+  },
+  "path": "/text",
+  "createdAt": "2018-03-02T12:30:47.256Z",
+  "updatedAt": "2018-03-02T12:30:59.230Z"
+}
