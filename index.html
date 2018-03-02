@@ -70,9 +70,20 @@
 
     });
   </script>
+
+  <!-- Import Simpla elements -->
+  <link rel="import" href="/bower_components/simpla-text/simpla-text.html">
+  <link rel="import" href="/bower_components/simpla-img/simpla-img.html">
+  <link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
 </head>
 
 <body data-gr-c-s-loaded="true">
+  <!-- Block of editable richtext -->
+  <simpla-text path="/text"></simpla-text>
+
+  <!-- An editable image -->
+  <img is="simpla-img" path="/index_files/ebook-tiersicherheit.jpg">
+
   <div class="mainWrap">
     <div class="content">
       <div class="container">
